@@ -4,8 +4,8 @@ def turn_count(board)
   board.each do |turn|
     while turn != " "
     count += 1
-    return count
     end
+  return count
   end
 end
 
