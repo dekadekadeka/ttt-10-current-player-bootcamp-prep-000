@@ -3,8 +3,8 @@ def turn_count(board)
   count = 0
   board.each do |turn|
     if turn != " "
+    count
     count += 1
-    return count
     end
   end
 end
